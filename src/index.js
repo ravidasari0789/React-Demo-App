@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Onclick from './Onclick';
+import UseState from './UseState';
+import OnChange from './OnChange';
+import OnSubmit from './OnSubmit';
+import MapIteration from './MapIteration'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode>  
+    <MapIteration/>
   </React.StrictMode>
 );
 
