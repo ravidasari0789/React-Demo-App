@@ -6,13 +6,16 @@ import Onclick from './Onclick';
 import UseState from './UseState';
 import OnChange from './OnChange';
 import OnSubmit from './OnSubmit';
-import MapIteration from './MapIteration'
+import MapIteration from './MapIteration';
+import LoginForm from './LoginForm';
+import Calculate from './Calculate';
+import FetchData from './FetchData';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>  
-    <MapIteration/>
+    <FetchData/>
   </React.StrictMode>
 );
 
